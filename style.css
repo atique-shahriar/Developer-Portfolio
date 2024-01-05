@@ -49,3 +49,60 @@ header {
   border: none;
   padding: 18px 35px;
 }
+
+/* HEADER SECTION */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px 0px 200px;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.banner-column1 {
+  max-width: 600px;
+}
+
+.banner img {
+  width: 500px;
+  padding-right: 60px;
+}
+
+.banner-greetings {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-name {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  width: 585px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.banner button {
+  margin-right: 40px;
+}
+
+.banner .contact-btn {
+  border-radius: 5px;
+  color: #fd6e0a;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid #fd6e0a;
+  padding: 18px 35px;
+}
