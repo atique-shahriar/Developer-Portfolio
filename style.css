@@ -189,3 +189,42 @@ header {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* MY RESUME */
+.resume-section {
+  width: 1140px;
+  margin: 150px auto;
+}
+.resume-column {
+  display: flex;
+  gap: 80px;
+  margin: 80px 0px;
+}
+.resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-degree {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.resume-institute {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.resume-column p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+  width: 511px;
+}
