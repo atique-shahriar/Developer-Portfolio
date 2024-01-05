@@ -5,6 +5,12 @@
 
 header {
   background-color: #fff8f3;
+  background-image: url("images/developer.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+i {
+  margin-right: 5px;
 }
 .nav-menu {
   display: flex;
@@ -56,7 +62,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0px 0px 200px;
+  padding: 100px 0px 0px 200px;
   background-image: url(images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
