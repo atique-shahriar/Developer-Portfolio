@@ -31,7 +31,7 @@ header {
 }
 
 .nav-list li {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .nav-list a {
@@ -230,4 +230,45 @@ header {
 }
 .download-cv {
   text-align: center;
+}
+
+.footer-section {
+  background: #fff8f3;
+  padding: 130px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section h1 {
+  color: #181818;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.footer-section p {
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+  width: 560px;
+  padding-bottom: 20px;
+}
+
+.footer-section img {
+  margin-right: 20px;
+}
+
+.footer-section input,
+.footer-section textarea {
+  width: 461px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  padding: 18px 30px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-section textarea {
+  resize: none;
 }
